@@ -1,4 +1,7 @@
 # Include Media Rails
+[![Travis CI Build Badge](https://travis-ci.org/KaoruDev/include_media_rails.svg?branch=master)](https://travis-ci.org/KaoruDev/include_media_rails)
+
+
 A simple wrapper of [include_media](https://github.com/eduardoboucas/include-media)
 by [Eduardo Bouças, @eduardoboucas](https://github.com/eduardoboucas) and [Hugo Giraudel,
  @HugoGiraudel](https://github.com/HugoGiraudel).
