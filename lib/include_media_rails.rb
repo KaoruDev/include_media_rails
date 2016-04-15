@@ -1,5 +1,8 @@
 require "include_media_rails/version"
 
 module IncludeMediaRails
-  # Your code goes here...
+  module Rails
+    class Engine < ::Rails::Engine
+    end
+  end
 end
