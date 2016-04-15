@@ -1,15 +1,18 @@
-# IncludeMediaRails
+# Include Media Rails
+A simple wrapper of [include_media](https://github.com/eduardoboucas/include-media)
+by [Eduardo Bouças, @eduardoboucas](https://github.com/eduardoboucas) and [Hugo Giraudel,
+ @HugoGiraudel](https://github.com/HugoGiraudel).
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/include_media_rails`. To experiment with that code, run `bin/console` for an interactive prompt.
+Website and Docs: [http://include-media.com/](http://include-media.com/)
 
-TODO: Delete this and the text above, and describe your gem
+Repo: [https://github.com/eduardoboucas/include-media](https://github.com/eduardoboucas/include-media)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'include_media_rails'
+gem 'include_media_rails', '~> 1.4'
 ```
 
 And then execute:
@@ -22,17 +25,39 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+in a `sass` file (`app/assets/stylsheets/application.scss` for example):
+
+```sass
+@import "include_media";
+```
+
+
+## Dependencies
+
+- Rails `>= 3.1` and `<5` (not tested)
+- Sass `>=3.3` and `<4` (include_media requires `sass maps`)
+
+
+## Versioning
+
+`*.*.*` points to the `include_media` version. i.e. `v1.4.2` comes with
+include_media's `v1.4.2`. **NOTE** I started this gem when
+`include_media` was at `v1.4.2`. Earilier versions are _not_ currently supported.
+
+The last number (`1.4.2.*` ) points to minor changes made to the gem itself.
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+After checking out the repo, run `bin/setup` to install dependencies.
+Then, run `rake spec` to run the tests. You can also run `bin/console`
+for an interactive prompt that will allow you to experiment.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/include_media_rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at
+https://github.com/kaorudev/include_media_rails. This project is intended
+to be a safe, welcoming space for collaboration, and contributors are
+expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
