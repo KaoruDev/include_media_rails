@@ -49,6 +49,12 @@ include_media's `v1.4.2`. **NOTE** I started this gem when
 
 The last number (`1.4.2.*` ) points to minor changes made to the gem itself.
 
+Available versions:
+```
+1.4.2.1
+1.4.3
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies.
