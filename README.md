@@ -62,6 +62,13 @@ After checking out the repo, run `bin/setup` to install dependencies.
 Then, run `rake spec` to run the tests. You can also run `bin/console`
 for an interactive prompt that will allow you to experiment.
 
+To quickly update `include-media` run `gulp update`. It will pull the
+latest version from `npm` and copy `include-media` to the
+`vendor/assets/stylesheets` directory.
+
+To pull down a specific version of `include-media` pass in a `--version` flag
+and set it to the target version. ie: `gulp update --version=1.4.2`
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at
