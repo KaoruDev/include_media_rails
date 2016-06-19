@@ -1,3 +1,3 @@
 module IncludeMediaRails
-  VERSION = "1.4.5"
+  VERSION = "1.4.6"
 end
