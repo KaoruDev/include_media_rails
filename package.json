@@ -1,0 +1,28 @@
+{
+  "name": "include_media_rails",
+  "version": "1.4.5",
+  "description": "[![Travis CI Build Badge](https://travis-ci.org/KaoruDev/include_media_rails.svg?branch=master)](https://travis-ci.org/KaoruDev/include_media_rails)",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "include-media": "^1.4.5",
+    "minimist": "^1.2.0",
+    "require-dir": "^0.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaoruDev/include_media_rails.git"
+  },
+  "author": "Kaoru Kohashigawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KaoruDev/include_media_rails/issues"
+  },
+  "homepage": "https://github.com/KaoruDev/include_media_rails#readme"
+}
