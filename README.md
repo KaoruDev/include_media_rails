@@ -70,6 +70,15 @@ latest version from `npm` and copy `include-media` to the
 To pull down a specific version of `include-media` pass in a `--version` flag
 and set it to the target version. ie: `gulp update --version=1.4.2`
 
+## Upgrading
+
+1. Get the latest version: `gulp update`
+2. Bump version in `lib/include_media_rails/version.rb`
+3. Create PR
+4. **Releasing**
+  - `git pull origin master`
+  - `bundle exec rake release`
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at
