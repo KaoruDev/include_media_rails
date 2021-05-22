@@ -15,7 +15,7 @@ Repo: [https://github.com/eduardoboucas/include-media](https://github.com/eduard
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'include_media_rails', '~> 1.4'
+gem 'include_media_rails', '~> 2.0'
 ```
 
 And then execute:
