@@ -3,8 +3,8 @@
 
 
 A simple wrapper of [include_media](https://github.com/eduardoboucas/include-media)
-by [Eduardo Bouças, @eduardoboucas](https://github.com/eduardoboucas) and [Hugo Giraudel,
- @HugoGiraudel](https://github.com/HugoGiraudel).
+by [Eduardo Bouças, @eduardoboucas](https://github.com/eduardoboucas) and [Kitty Giraudel,
+ @KittyGiraudel](https://github.com/KittyGiraudel).
 
 Website and Docs: [http://include-media.com/](http://include-media.com/)
 
